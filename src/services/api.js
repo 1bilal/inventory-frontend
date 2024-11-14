@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getAccessToken, logout } from './authService';
 
 const api = axios.create({
-    baseURL: 'http://11b.pythonanywhere.com/api', // Your backend URL
+    baseURL: 'https://11b.pythonanywhere.com/api', // Your backend URL
 });
 
 api.interceptors.request.use(
